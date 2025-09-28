@@ -20816,9 +20816,9 @@
 # text = โดยคนแต่ละยุคแต่ละสมัยของคนไทยนั้นก็จะมีความเชื่อเกี่ยวกับสิ่งเหนือธรรมชาตินี้แตกต่างกันออกไป
 1	โดย	_	SCONJ	_	_	13	mark	_	SpaceAfter=No
 2	คน	_	NOUN	_	NounType=Clf	13	nsubj	_	SpaceAfter=No
-3	แต่ละ	_	adv	_	_	4	advmod	_	SpaceAfter=No
+3	แต่ละ	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	ยุค	_	NOUN	_	NounType=Clf	2	nmod	_	SpaceAfter=No
-5	แต่ละ	_	adv	_	_	6	advmod	_	SpaceAfter=No
+5	แต่ละ	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	สมัย	_	NOUN	_	NounType=Clf	4	nmod	_	SpaceAfter=No
 7	ของ	_	ADP	_	_	8	case	_	SpaceAfter=No
 8	คน	_	NOUN	_	NounType=Clf	2	nmod	_	SpaceAfter=No

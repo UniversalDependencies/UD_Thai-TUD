@@ -13382,7 +13382,7 @@
 19	กะหรี่	_	NOUN	_	_	18	nmod	_	SpaceAfter=No
 20	มา	_	VERB	_	_	15	compound	_	SpaceAfter=No
 21	กิน	_	VERB	_	_	20	compound	_	SpaceAfter=No
-22	เลย	_	PART	_	PartType=Emp|ExtPos=ADV	15	dep	_	SpaceAfter=No
+22	เลย	_	PART	_	ExtPos=ADV|PartType=Emp	15	dep	_	SpaceAfter=No
 23	ที	_	PART	_	PartType=Emp	22	fixed	_	SpaceAfter=No
 24	เดียว	_	PART	_	PartType=Emp	22	fixed	_	SpaceAfter=No
 
@@ -23629,7 +23629,7 @@
 16	มี	_	VERB	_	_	12	ccomp	_	SpaceAfter=No
 17	เครื่อง	_	NOUN	_	_	16	obj	_	SpaceAfter=No
 18	ยนต์	_	NOUN	_	_	17	nmod	_	SpaceAfter=No
-19	แต่	_	PART	_	PartType=Emp|ExtPos=ADV	16	dep	_	SpaceAfter=No
+19	แต่	_	PART	_	ExtPos=ADV|PartType=Emp	16	dep	_	SpaceAfter=No
 20	อย่าง	_	PART	_	PartType=Emp	19	fixed	_	SpaceAfter=No
 21	ใด	_	PART	_	PartType=Emp	19	fixed	_	SpaceAfter=No
 
@@ -30048,7 +30048,7 @@
 21	ขึ้น	_	ADV	_	_	20	advmod	_	SpaceAfter=No
 22	กับ	_	ADP	_	_	23	case	_	SpaceAfter=No
 23	ตัวเอง	_	PRON	_	_	20	obl	_	_
-24	ไม่	_	PART	_	PartType=Neg|ExtPos=SCONJ	27	mark	_	SpaceAfter=No
+24	ไม่	_	PART	_	ExtPos=SCONJ|PartType=Neg	27	mark	_	SpaceAfter=No
 25	ว่า	_	SCONJ	_	_	24	fixed	_	SpaceAfter=No
 26	จะ	_	AUX	_	_	24	fixed	_	SpaceAfter=No
 27	เป็น	_	VERB	_	_	20	advcl	_	SpaceAfter=No
@@ -30416,7 +30416,7 @@
 34	มี	_	VERB	_	_	30	ccomp	_	_
 35	9	_	NUM	_	_	36	nummod	_	_
 36	ชีวิต	_	NOUN	_	NounType=Clf	34	obj	_	SpaceAfter=No
-37	นั่น	_	PART	_	PartType=Emp|ExtPos=ADV	34	advmod	_	SpaceAfter=No
+37	นั่น	_	PART	_	ExtPos=ADV|PartType=Emp	34	advmod	_	SpaceAfter=No
 38	เอง	_	PART	_	PartType=Emp	37	fixed	_	SpaceAfter=No
 
 # filename = tnc_ESUN065
@@ -36856,7 +36856,7 @@
 3	เล่น	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	ดนตรี	_	NOUN	_	_	3	obj	_	SpaceAfter=No
 5	ได้	_	ADV	_	_	3	advmod	_	SpaceAfter=No
-6	หลากหลาย	_	ADV	_	advmod	7	advmod	_	SpaceAfter=No
+6	หลากหลาย	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 7	ชนิด	_	NOUN	_	NounType=Clf	5	advmod	_	SpaceAfter=No
 8	ก็ดี	_	PART	_	_	3	mark	_	_
 9	หรือ	_	CCONJ	_	_	11	cc	_	SpaceAfter=No
@@ -38976,7 +38976,7 @@
 20	เกิด	_	VERB	_	_	15	acl	_	SpaceAfter=No
 21	จาก	_	ADP	_	_	22	case	_	SpaceAfter=No
 22	อาชญากรรม	_	NOUN	_	_	20	obl	_	_
-23	ไม่	_	PART	_	PartType=Neg|ExtPos=SCONJ	27	mark	_	SpaceAfter=No
+23	ไม่	_	PART	_	ExtPos=SCONJ|PartType=Neg	27	mark	_	SpaceAfter=No
 24	ว่า	_	SCONJ	_	_	23	fixed	_	SpaceAfter=No
 25	จะ	_	AUX	_	_	23	fixed	_	SpaceAfter=No
 26	เป็น	_	AUX	_	_	27	cop	_	SpaceAfter=No

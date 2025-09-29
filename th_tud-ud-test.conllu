@@ -7385,7 +7385,7 @@
 1	ใน	_	ADP	_	_	2	case	_	SpaceAfter=No
 2	ห้อง	_	NOUN	_	_	8	obl	_	SpaceAfter=No
 3	ปฏิบัติการ	_	NOUN	_	_	2	nmod	_	_
-4	ไฮโกรมัยซิน	_	PROPN	_	NameType=Pro|ExtPos=PROPN	8	nsubj	_	_
+4	ไฮโกรมัยซิน	_	PROPN	_	NameType=Pro	8	nsubj	_	_
 5	บี	_	PROPN	_	_	4	fixed	_	SpaceAfter=No
 6	จะ	_	AUX	_	_	8	aux	_	SpaceAfter=No
 7	ถูก	_	AUX	_	_	8	aux	_	SpaceAfter=No
@@ -7426,7 +7426,7 @@
 42	ปฏิกิริยา	_	NOUN	_	_	41	obj	_	SpaceAfter=No
 43	ฟอสโฟรีเลชัน	_	PROPN	_	NameType=Oth	42	nmod	_	SpaceAfter=No
 44	กับ	_	ADP	_	_	45	case	_	SpaceAfter=No
-45	ไฮโกรมัยซิน	_	PROPN	_	NameType=Oth|ExtPos=PROPN	41	obl	_	_
+45	ไฮโกรมัยซิน	_	PROPN	_	NameType=Oth	41	obl	_	_
 46	บี	_	PROPN	_	_	45	fixed	_	_
 47	จน	_	SCONJ	_	_	48	mark	_	SpaceAfter=No
 48	หมด	_	VERB	_	_	41	advcl	_	SpaceAfter=No

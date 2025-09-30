@@ -1759,7 +1759,7 @@
 2	เห็น	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	ได้	_	AUX	_	_	2	aux	_	SpaceAfter=No
 4	ว่า	_	SCONJ	_	_	16	mark	_	SpaceAfter=No
-5	ไม่	_	PART	_	PartType=Neg	9	mark	_	SpaceAfter=No
+5	ไม่	_	PART	_	ExtPos=SCONJ|PartType=Neg	9	mark	_	SpaceAfter=No
 6	ว่า	_	SCONJ	_	_	5	fixed	_	SpaceAfter=No
 7	จะ	_	AUX	_	_	9	aux	_	SpaceAfter=No
 8	เป็น	_	AUX	_	_	9	cop	_	SpaceAfter=No

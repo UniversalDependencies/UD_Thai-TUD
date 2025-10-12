@@ -1,10 +1,10 @@
 # Summary
-
-*UD Thai TUD* (Thai Universal Dependency Treebank) consists of 3,627 syntactic trees annotated using the Universal Dependencies framework. Documents were randomly sampled from the Thai National Corpus and Thai Wikipedia, covering various types such as news articles, Wikipedia articles, essays, advertisement, interviews, andstories. TUD covered diverse topics, such as politics, crime, entertainment, sport, history, religion, culture, and science.
+*UD Thai TUD* (Thai Universal Dependency Treebank) is a treebank of 3,627 syntactic trees from the Thai National Corpus and Wikipedia, annotated in Universal Dependencies, covering diverse text types and topics across various domains.
 
 # Introduction
 
 The *UD Thai TUD* treebank was created to provide a broad-coverage syntactic resource for the Thai language under the Universal Dependencies (UD) framework. Text was randomly sampled from two major sources: the Thai National Corpus and the November 2020 dump of Thai Wikipedia. To ensure diversity, 5,000 paragraphs were selected from various document types—news articles, Wikipedia entries, essays, advertisements, interviews, and stories—covering a wide range of topics such as politics, crime, entertainment, sports, history, religion, culture, and science. After annotation and rigorous quality control, 3,627 well-formed dependency trees were retained in the final dataset.
+
 
 ## Annotation Process
 
@@ -66,7 +66,7 @@ BibTex
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.16
+Data available since: UD v2.17
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
@@ -74,9 +74,9 @@ Genre: grammar-examples
 Lemmas: not available
 UPOS: manual native
 XPOS: not available
-Features: manual native
+Features: not available
 Relations: manual native
-Contributors: Sriwirote, Panyut; Leong, Wei Qi; Polpanumas, Charin; Thanyawong, Santhawat; Tjhi, William Chandra; Aroonmanakun, Wirote; Rutherford, Attapol T.; Maitreenukul, Punyanuch
+Contributors: Sriwirote, Panyut; Leong, Wei Qi; Polpanumas, Charin; Thanyawong, Santhawat; Tjhi, William Chandra; Aroonmanakun, Wirote; Rutherford, Attapol T.; Jiamsundutsadee, Ratanon; Maitreenukul, Punyanuch
 Contributing: here
 Contact: attapol.t@chula.ac.th, punyanuch.maitree@gmail.com
 ===============================================================================

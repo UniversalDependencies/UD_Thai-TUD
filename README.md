@@ -12,6 +12,12 @@ All paragraphs were tokenized using the `newmm` tokenizer from the PyThaiNLP lib
 
 Following pilot annotations and manual review, two annotators demonstrating the highest accuracy were selected to complete the remaining data. Agreement was evaluated on 20 double-annotated sentences (399 tokens), achieving Cohen’s Kappa scores of 0.92 (UPOS) and 0.84 (DEPREL), and UAS/LAS scores of 0.85 and 0.78. The annotated data was then converted into CoNLL-U format and split into individual trees based on dependency structure. Trees with incomplete labels, multiple roots, or structural errors were corrected, with additional quality assurance performed via manual inspection of 50 randomly selected trees.
 
+The treebank consists of randomly shuffled sentences sampled from the Thai National Corpus (TNC) and the November 2020 dump of Thai Wikipedia, rather than complete documents. Each filename encodes the source document and the portion of the document from which the sentences were extracted:
+
+- **Wikipedia trees:** filenames follow the format `wiki_<wgArticleID>`.
+- **TNC trees:** filenames follow the format `[tnc/][Original TNC filename][Part of the document]`.
+
+
 ## Train–Test Split
 
 The final treebank was split into training, development, and test sets in an 8:1:1 ratio. It consists of syntactically complete trees rather than full documents. While Filenames are used to identify source paragraphs, typically reflecting their origin from the Thai National Corpus or Wikipedia. However, sentence IDs in the final treebank do not encode genre or domain metadata.

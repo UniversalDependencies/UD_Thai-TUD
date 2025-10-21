@@ -53,9 +53,9 @@ BibTex
 ```
 @article{Sriwirote-etal-2024-TUD,
   title={The Thai Universal Dependency Treebank},
-  author={Panyut Sriwirote and Wei Qi Leong and 
-  Charin Polpanumas and Santhawat Thanyawong  and 
-  William Chandra Tjhi and Wirote Aroonmanakun and 
+  author={Panyut Sriwirote and Wei Qi Leong and
+  Charin Polpanumas and Santhawat Thanyawong  and
+  William Chandra Tjhi and Wirote Aroonmanakun and
   Attapol T. Rutherford},
   journal={Transactions of the Association for Computational Linguistics},
   year={in press},
@@ -66,7 +66,7 @@ BibTex
 
 # Changelog
 
-* 2025-05-15 v2.16
+* 2025-11-15 v2.17
   * Initial release in Universal Dependencies.
 
 

@@ -66,7 +66,7 @@
 16	บ้าน	_	NOUN	_	_	15	obj	_	SpaceAfter=No
 17	พร้อม	_	ADV	_	_	15	advmod	_	SpaceAfter=No
 18	กัน	_	ADV	_	_	15	advmod	_	_
-19	เนื่อง	_	SCONJ	_	_	24	mark	_	SpaceAfter=No
+19	เนื่อง	_	SCONJ	_	ExtPos=SCONJ	24	mark	_	SpaceAfter=No
 20	ด้วย	_	SCONJ	_	_	19	fixed	_	SpaceAfter=No
 21	วัน	_	NOUN	_	_	24	obl	_	SpaceAfter=No
 22	นั้น	_	DET	_	_	21	det	_	SpaceAfter=No
@@ -162,7 +162,7 @@
 74	ความ	_	NOUN	_	_	81	nsubj	_	SpaceAfter=No
 75	ช่วยเหลือ	_	VERB	_	_	74	acl	_	SpaceAfter=No
 76	จาก	_	ADP	_	_	77	case	_	SpaceAfter=No
-77	หนู	_	NOUN	_	_	74	obl	_	SpaceAfter=No
+77	หนู	_	NOUN	_	_	74	nmod	_	SpaceAfter=No
 78	อย่าง	_	PART	_	_	79	case	_	SpaceAfter=No
 79	โลซก	_	PROPN	_	_	77	nmod	_	SpaceAfter=No
 80	ยัง	_	AUX	_	_	81	aux	_	SpaceAfter=No
@@ -475,7 +475,7 @@
 13	สกอร์	_	NOUN	_	_	12	obj	_	SpaceAfter=No
 14	ค่อนข้าง	_	ADV	_	_	15	advmod	_	SpaceAfter=No
 15	มาก	_	VERB	_	_	8	advcl	_	SpaceAfter=No
-16	ทั้ง	_	CCONJ	_	_	18	cc	_	SpaceAfter=No
+16	ทั้ง	_	CCONJ	_	ExtPos=CCONJ	18	cc	_	SpaceAfter=No
 17	ที่	_	CCONJ	_	_	16	fixed	_	SpaceAfter=No
 18	มี	_	VERB	_	_	8	conj	_	SpaceAfter=No
 19	โอกาส	_	NOUN	_	_	18	obj	_	SpaceAfter=No
@@ -483,7 +483,7 @@
 21	ๆ	_	PUNCT	_	_	20	punct	_	_
 22	หลาย	_	ADV	_	_	19	advmod	_	SpaceAfter=No
 23	ครั้ง	_	NOUN	_	_	19	clf	_	_
-24	อย่างไร	_	CCONJ	_	_	27	cc	_	SpaceAfter=No
+24	อย่างไร	_	CCONJ	_	ExtPos=CCONJ	27	cc	_	SpaceAfter=No
 25	ก็	_	CCONJ	_	_	24	fixed	_	SpaceAfter=No
 26	ตาม	_	CCONJ	_	_	24	fixed	_	_
 27	พอ	_	VERB	_	_	1	conj	_	SpaceAfter=No
@@ -724,7 +724,7 @@
 13	ที่	_	NOUN	_	_	12	nmod	_	SpaceAfter=No
 14	อยู่	_	VERB	_	_	13	acl	_	SpaceAfter=No
 15	อาศัย	_	VERB	_	_	14	compound	_	SpaceAfter=No
-16	เนื่อง	_	SCONJ	_	_	18	mark	_	SpaceAfter=No
+16	เนื่อง	_	SCONJ	_	ExtPos=SCONJ	18	mark	_	SpaceAfter=No
 17	จาก	_	SCONJ	_	_	16	fixed	_	SpaceAfter=No
 18	มี	_	VERB	_	_	12	advcl	_	SpaceAfter=No
 19	เส้น	_	NOUN	_	_	18	obj	_	SpaceAfter=No
@@ -906,7 +906,7 @@
 28	พลังงาน	_	NOUN	_	_	26	obj	_	SpaceAfter=No
 29	มาก	_	ADV	_	_	26	advmod	_	SpaceAfter=No
 30	น้อย	_	ADV	_	_	29	compound	_	SpaceAfter=No
-31	เพียง	_	ADV	_	_	29	advmod	_	SpaceAfter=No
+31	เพียง	_	ADV	_	ExtPos=ADV	29	advmod	_	SpaceAfter=No
 32	ใด	_	DET	_	_	31	fixed	_	SpaceAfter=No
 
 # filename = tnc_ESUN377
@@ -1017,7 +1017,7 @@
 13	จะ	_	AUX	_	_	14	aux	_	SpaceAfter=No
 14	ก่อ	_	VERB	_	_	11	ccomp	_	SpaceAfter=No
 15	ปัญหา	_	NOUN	_	_	14	obj	_	SpaceAfter=No
-16	ให้	_	ADP	_	_	18	case	_	SpaceAfter=No
+16	ให้	_	ADP	_	ExtPos=ADP	18	case	_	SpaceAfter=No
 17	แก่	_	ADP	_	_	16	fixed	_	SpaceAfter=No
 18	สังคม	_	NOUN	_	_	14	obl	_	_
 19	ซึ่ง	_	PRON	_	_	20	nsubj	_	SpaceAfter=No
@@ -1125,7 +1125,7 @@
 # filename = tnc_NWRP_FR011
 # sent_id = 2817
 # text = ทั้งนี้ พรรคสันนิบาตอะวามี ของชีค ฮาสินา ชนะเลือกตั้งได้ 231 ที่นั่ง จากจำนวนส.ส. 300 ที่นั่งในการเลือกตั้งเมื่อวันจันทร์ที่ผ่านมา ส่วนพรรคชาตินิยมบังกลาเทศ หรือบีเอ็นพีของนางเซีย อดีตนายกรัฐมนตรีอีกคนหนึ่ง ได้เพียง 27 ที่นั่งเท่านั้น
-1	ทั้ง	_	CCONJ	_	_	8	cc	_	SpaceAfter=No
+1	ทั้ง	_	CCONJ	_	ExtPos=CCONJ	8	cc	_	SpaceAfter=No
 2	นี้	_	CCONJ	_	_	1	fixed	_	_
 3	พรรค	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
 4	สันนิบาตอะวามี	_	PROPN	_	_	3	compound	_	_
@@ -1222,7 +1222,7 @@
 43	บท	_	NOUN	_	_	42	obj	_	SpaceAfter=No
 44	สวด	_	VERB	_	_	43	acl	_	SpaceAfter=No
 45	ท่อน	_	NOUN	_	_	43	clf	_	SpaceAfter=No
-46	ต่อ	_	ADJ	_	_	43	amod	_	SpaceAfter=No
+46	ต่อ	_	ADJ	_	ExtPos=ADJ	43	amod	_	SpaceAfter=No
 47	ไป	_	ADJ	_	_	46	fixed	_	SpaceAfter=No
 48	ให้	_	SCONJ	_	_	49	mark	_	SpaceAfter=No
 49	จบ	_	VERB	_	_	42	ccomp	_	SpaceAfter=No
@@ -1304,7 +1304,7 @@
 24	Leroux	_	PROPN	_	_	23	flat	_	_
 25	เป็น	_	AUX	_	_	26	cop	_	SpaceAfter=No
 26	เรื่อง	_	NOUN	_	_	5	conj	_	SpaceAfter=No
-27	เกี่ยว	_	ADP	_	_	29	case	_	SpaceAfter=No
+27	เกี่ยว	_	ADP	_	ExtPos=ADP	29	case	_	SpaceAfter=No
 28	กับ	_	ADP	_	_	27	fixed	_	SpaceAfter=No
 29	นัก	_	NOUN	_	_	26	nmod	_	SpaceAfter=No
 30	ร้อง	_	VERB	_	_	29	compound	_	SpaceAfter=No
@@ -1380,8 +1380,8 @@
 7	อย่าง	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	ใจ	_	NOUN	_	_	7	obj	_	SpaceAfter=No
 9	เรา	_	PRON	_	_	8	nmod	_	_
-10	เหมือน	_	VERB	_	_	15	mark	_	SpaceAfter=No
-11	กับ	_	ADP	_	_	10	fixed	_	SpaceAfter=No
+10	เหมือน	_	SCONJ	_	ExtPos=SCONJ	15	mark	_	SpaceAfter=No
+11	กับ	_	SCONJ	_	_	10	fixed	_	SpaceAfter=No
 12	เรา	_	PRON	_	_	15	nsubj	_	SpaceAfter=No
 13	ไม่	_	ADV	_	_	15	advmod	_	SpaceAfter=No
 14	ได้	_	AUX	_	_	15	aux	_	SpaceAfter=No
@@ -1569,7 +1569,7 @@
 19	หมิ่น	_	VERB	_	_	18	compound	_	SpaceAfter=No
 20	เหยียด	_	VERB	_	_	18	compound	_	SpaceAfter=No
 21	หยาม	_	VERB	_	_	20	compound	_	_
-22	ยก	_	SCONJ	_	_	26	mark	_	SpaceAfter=No
+22	ยก	_	SCONJ	_	ExtPos=SCONJ	26	mark	_	SpaceAfter=No
 23	ตัว	_	SCONJ	_	_	22	fixed	_	SpaceAfter=No
 24	อย่าง	_	SCONJ	_	_	22	fixed	_	SpaceAfter=No
 25	เช่น	_	SCONJ	_	_	22	fixed	_	_
@@ -1790,7 +1790,7 @@
 5	ตั้งแต่	_	ADP	_	_	6	case	_	SpaceAfter=No
 6	นัด	_	NOUN	_	_	4	obl	_	SpaceAfter=No
 7	หน้า	_	ADJ	_	_	6	amod	_	SpaceAfter=No
-8	เป็น	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+8	เป็น	_	ADV	_	ExtPos=ADV	4	advmod	_	SpaceAfter=No
 9	ต้น	_	ADV	_	_	8	fixed	_	SpaceAfter=No
 10	ไป	_	ADV	_	_	8	fixed	_	SpaceAfter=No
 
@@ -2023,7 +2023,7 @@
 # filename = tnc_NWRP_FR011
 # sent_id = 1939
 # text = นอกจากโรงงานหลายแห่งในจีนได้ปลดพนักงานเป็นจำนวนมากเมื่อเดือนที่แล้ว ราคาอสังหาริมทรัพย์ในเกาหลีใต้ลดฮวบครั้งใหญ่ในรอบ 5 ปี
-1	นอก	_	SCONJ	_	_	10	mark	_	SpaceAfter=No
+1	นอก	_	SCONJ	_	ExtPos=SCONJ	10	mark	_	SpaceAfter=No
 2	จาก	_	SCONJ	_	_	1	fixed	_	SpaceAfter=No
 3	โรง	_	NOUN	_	_	10	nsubj	_	SpaceAfter=No
 4	งาน	_	NOUN	_	_	3	compound	_	SpaceAfter=No
@@ -2189,7 +2189,7 @@
 20	สน	_	VERB	_	_	19	acl	_	SpaceAfter=No
 21	ใจ	_	NOUN	_	_	20	compound	_	SpaceAfter=No
 22	ใน	_	ADP	_	_	23	case	_	SpaceAfter=No
-23	การ	_	NOUN	_	_	19	obl	_	SpaceAfter=No
+23	การ	_	NOUN	_	_	19	nmod	_	SpaceAfter=No
 24	สมัคร	_	VERB	_	_	23	acl	_	SpaceAfter=No
 25	เข้า	_	VERB	_	_	24	compound	_	SpaceAfter=No
 26	ศึกษา	_	VERB	_	_	25	compound	_	SpaceAfter=No
@@ -2239,7 +2239,7 @@
 # text = คำประกาศดังกล่าวมีขึ้น ภายหลังรัฐบาลจีนแจ้งว่า ในช่วง 3 เดือนสุดท้ายของปี 2551 มีคนตกงานมากกว่าครึ่งล้านราย เนื่องจากวิกฤติเศรษฐกิจโลก
 1	คำ	_	NOUN	_	_	5	nsubj	_	SpaceAfter=No
 2	ประกาศ	_	VERB	_	_	1	acl	_	SpaceAfter=No
-3	ดัง	_	DET	_	_	1	det	_	SpaceAfter=No
+3	ดัง	_	DET	_	ExtPos=DET	1	det	_	SpaceAfter=No
 4	กล่าว	_	DET	_	_	3	fixed	_	SpaceAfter=No
 5	มี	_	VERB	_	_	0	root	_	SpaceAfter=No
 6	ขึ้น	_	ADV	_	_	5	advmod	_	_
@@ -2389,7 +2389,7 @@
 # filename = tnc_ESUN377
 # sent_id = 2245
 # text = นอกจากนี้ ชาว Generation M ยังละเลยที่จะรักษาคำพูดในบางเรื่อง เช่น การไปตามนัดหมายให้ตรงเวลา
-1	นอก	_	CCONJ	_	_	8	cc	_	SpaceAfter=No
+1	นอก	_	CCONJ	_	ExtPos=CCONJ	8	cc	_	SpaceAfter=No
 2	จาก	_	CCONJ	_	_	1	fixed	_	SpaceAfter=No
 3	นี้	_	CCONJ	_	_	1	fixed	_	_
 4	ชาว	_	NOUN	_	_	8	nsubj	_	_
@@ -2433,7 +2433,7 @@
 6	และ	_	CCONJ	_	_	7	cc	_	SpaceAfter=No
 7	โทรทัศน์	_	NOUN	_	_	5	conj	_	SpaceAfter=No
 8	เกี่ยวกับ	_	ADP	_	_	9	case	_	SpaceAfter=No
-9	การ	_	NOUN	_	_	1	obl	_	SpaceAfter=No
+9	การ	_	NOUN	_	_	1	nmod	_	SpaceAfter=No
 10	บุก	_	VERB	_	_	9	acl	_	SpaceAfter=No
 11	ตรวจจับ	_	VERB	_	_	10	compound	_	SpaceAfter=No
 12	บ่อน	_	NOUN	_	_	11	obj	_	SpaceAfter=No
@@ -2532,7 +2532,7 @@
 18	ทุก	_	ADV	_	_	19	advmod	_	SpaceAfter=No
 19	คน	_	NOUN	_	_	24	nsubj	_	SpaceAfter=No
 20	จึง	_	ADV	_	_	24	advmod	_	SpaceAfter=No
-21	ควร	_	AUX	_	_	24	aux	_	SpaceAfter=No
+21	ควร	_	AUX	_	ExtPos=AUX	24	aux	_	SpaceAfter=No
 22	ที่	_	AUX	_	_	21	fixed	_	SpaceAfter=No
 23	จะ	_	AUX	_	_	21	fixed	_	SpaceAfter=No
 24	นอบ	_	VERB	_	_	8	conj	_	SpaceAfter=No
@@ -2688,7 +2688,7 @@
 # filename = tnc_NWRP_EC037
 # sent_id = 2271
 # text = ขณะที่ผู้ประกอบการทั้งฝ่ายไทยและกัมพูชา มั่นใจ
-1	ขณะ	_	CCONJ	_	_	11	cc	_	SpaceAfter=No
+1	ขณะ	_	CCONJ	_	ExtPos=CCONJ	11	cc	_	SpaceAfter=No
 2	ที่	_	CCONJ	_	_	1	fixed	_	SpaceAfter=No
 3	ผู้	_	NOUN	_	_	11	nsubj	_	SpaceAfter=No
 4	ประกอบ	_	VERB	_	_	3	acl	_	SpaceAfter=No
@@ -3078,7 +3078,7 @@
 36	เข้า	_	VERB	_	_	35	compound	_	SpaceAfter=No
 37	สู่	_	ADP	_	_	38	case	_	SpaceAfter=No
 38	รอบ	_	NOUN	_	_	36	obl	_	SpaceAfter=No
-39	ต่อ	_	ADV	_	_	38	amod	_	SpaceAfter=No
+39	ต่อ	_	ADV	_	ExtPos=ADV	38	amod	_	SpaceAfter=No
 40	ไป	_	ADV	_	_	39	fixed	_	_
 41	โดย	_	SCONJ	_	_	44	mark	_	SpaceAfter=No
 42	ไม่	_	ADV	_	_	44	advmod	_	SpaceAfter=No
@@ -3970,7 +3970,7 @@
 5	10	_	NUM	_	_	6	nummod	_	_
 6	ล้าน	_	NOUN	_	_	3	nmod	_	SpaceAfter=No
 7	บาท	_	NOUN	_	_	3	clf	_	_
-8	รวม	_	CCONJ	_	_	11	cc	_	SpaceAfter=No
+8	รวม	_	CCONJ	_	ExtPos=CCONJ	11	cc	_	SpaceAfter=No
 9	ถึง	_	CCONJ	_	_	8	fixed	_	SpaceAfter=No
 10	ยัง	_	ADV	_	_	11	advmod	_	SpaceAfter=No
 11	ได้	_	VERB	_	_	2	conj	_	SpaceAfter=No
@@ -4028,7 +4028,7 @@
 31	ยุโรป	_	PROPN	_	_	28	nmod	_	SpaceAfter=No
 32	ได้	_	ADV	_	_	22	advmod	_	SpaceAfter=No
 33	แล้ว	_	ADV	_	_	32	advmod	_	SpaceAfter=No
-34	หลังจาก	_	SCONJ	_	_	37	mark	_	SpaceAfter=No
+34	หลังจาก	_	SCONJ	_	ExtPos=SCONJ	37	mark	_	SpaceAfter=No
 35	ที่	_	SCONJ	_	_	34	fixed	_	SpaceAfter=No
 36	สามารถ	_	AUX	_	_	37	aux	_	SpaceAfter=No
 37	เข้า	_	VERB	_	_	21	advcl	_	SpaceAfter=No
@@ -4147,7 +4147,7 @@
 # sent_id = 1633
 # text = แต่อย่างไร ก็ตาม บรรดาประเทศสมาชิกกลุ่มโอเปกยังไม่เห็นด้วยกับแผนการดังกล่าว
 1	แต่	_	SCONJ	_	_	12	mark	_	SpaceAfter=No
-2	อย่างไร	_	SCONJ	_	_	12	mark	_	_
+2	อย่างไร	_	SCONJ	_	ExtPos=SCONJ	12	mark	_	_
 3	ก็	_	ADV	_	_	2	fixed	_	SpaceAfter=No
 4	ตาม	_	SCONJ	_	_	2	fixed	_	_
 5	บรรดา	_	NOUN	_	_	12	nsubj	_	SpaceAfter=No
@@ -4346,14 +4346,14 @@
 # filename = ESUN002-PART008
 # sent_id = 912
 # text = นอกจากอิทธิพลทางด้านความเชื่อจากจีนแล้ว ไทยยังได้รับอิทธิพลทางด้านความเชื่อมาจากอินเดียอีกด้วย
-1	นอกจาก	_	ADP	_	_	2	case	_	SpaceAfter=No
+1	นอกจาก	_	ADP	_	ExtPos=ADP	2	case	_	SpaceAfter=No
 2	อิทธิพล	_	NOUN	_	_	12	obl	_	SpaceAfter=No
 3	ทาง	_	NOUN	_	_	2	nmod	_	SpaceAfter=No
 4	ด้าน	_	NOUN	_	_	3	nmod	_	SpaceAfter=No
 5	ความ	_	NOUN	_	_	4	nmod	_	SpaceAfter=No
 6	เชื่อ	_	VERB	_	_	5	acl	_	SpaceAfter=No
 7	จาก	_	ADP	_	_	8	case	_	SpaceAfter=No
-8	จีน	_	PROPN	_	_	5	obl	_	SpaceAfter=No
+8	จีน	_	PROPN	_	_	5	nmod	_	SpaceAfter=No
 9	แล้ว	_	PART	_	_	1	fixed	_	_
 10	ไทย	_	PROPN	_	_	12	nsubj	_	SpaceAfter=No
 11	ยัง	_	AUX	_	_	12	aux	_	SpaceAfter=No
@@ -4372,7 +4372,7 @@
 # filename = tnc_ESUN383
 # sent_id = 1928
 # text = สืบเนื่องจากสภาพสังคมไทยในปัจจุบัน มีแนวโน้มที่แย่ลงจากในสมัยก่อน ทั้งการก่อคดีอาชญากรรมที่มีแนวโน้มสูงขึ้นเรื่อยๆ เช่น การฉก ชิง วิ่ง ราว การขโมยของ การปล้นธนาคารหรือร้านทองต่างๆ อีกทั้งผู้คนไม่มีมิตรไมตรีจิต ความจริงใจเหมือนผู้คนสมัยก่อน ตามที่จะพบเห็นได้ในข่าวว่า บางคนถูกหลอกไปข่มขืน หรือ ถูกฉุดไปกระทำชำเรา เป็นต้น ดังนั้นเราจึงควรจะทำอย่างไร เพื่อให้พ้นจากการตกเป็นเหยื่อของสภาพสังคมไทยที่เสื่อมโทรมลงทุกวันในปัจจุบันได้
-1	สืบ	_	SCONJ	_	_	9	mark	_	SpaceAfter=No
+1	สืบ	_	SCONJ	_	ExtPos=SCONJ	9	mark	_	SpaceAfter=No
 2	เนื่อง	_	SCONJ	_	_	1	fixed	_	SpaceAfter=No
 3	จาก	_	SCONJ	_	_	1	fixed	_	SpaceAfter=No
 4	สภาพ	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No
@@ -4419,7 +4419,7 @@
 45	ทอง	_	NOUN	_	_	44	nmod	_	SpaceAfter=No
 46	ต่าง	_	DET	_	_	44	det	_	SpaceAfter=No
 47	ๆ	_	PUNCT	_	_	46	punct	_	_
-48	อีก	_	SCONJ	_	_	53	mark	_	SpaceAfter=No
+48	อีก	_	SCONJ	_	ExtPos=SCONJ	53	mark	_	SpaceAfter=No
 49	ทั้ง	_	SCONJ	_	_	48	fixed	_	SpaceAfter=No
 50	ผู้	_	NOUN	_	_	53	nsubj	_	SpaceAfter=No
 51	คน	_	NOUN	_	_	50	compound	_	SpaceAfter=No
@@ -4671,7 +4671,7 @@
 10	สาระ	_	NOUN	_	_	9	obj	_	SpaceAfter=No
 11	ด้วย	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 12	ซ้ำ	_	ADV	_	_	11	compound	_	_
-13	เพราะ	_	SCONJ	_	_	17	mark	_	SpaceAfter=No
+13	เพราะ	_	SCONJ	_	ExtPos=SCONJ	17	mark	_	SpaceAfter=No
 14	ว่า	_	SCONJ	_	_	13	fixed	_	SpaceAfter=No
 15	เรา	_	PRON	_	_	17	nsubj	_	SpaceAfter=No
 16	ไม่	_	ADV	_	_	17	advmod	_	SpaceAfter=No
@@ -5250,7 +5250,7 @@
 1	จาก	_	ADP	_	_	2	case	_	SpaceAfter=No
 2	อดีต	_	NOUN	_	_	9	obl	_	_
 3	จนถึง	_	ADP	_	_	4	case	_	SpaceAfter=No
-4	ปัจจุบัน	_	NOUN	_	_	2	obl	_	_
+4	ปัจจุบัน	_	NOUN	_	_	2	nmod	_	_
 5	คน	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No
 6	ไทย	_	PROPN	_	_	5	nmod	_	SpaceAfter=No
 7	นั้น	_	DET	_	_	5	det	_	SpaceAfter=No
@@ -5367,7 +5367,7 @@
 # filename = ESUN013-PART008
 # sent_id = 148
 # text = ตัวอย่างเช่น การสักรอยสักลงอาคมต่างๆของเกจิอาจารย์ชื่อดังในหลายจังหวัดที่บอกว่า สักแล้วจะแคล้วคลาด จะฟันไม่เข้า จะชนะศัตรู
-1	ตัวอย่าง	_	SCONJ	_	_	3	mark	_	SpaceAfter=No
+1	ตัวอย่าง	_	SCONJ	_	ExtPos=SCONJ	3	mark	_	SpaceAfter=No
 2	เช่น	_	PART	_	_	1	fixed	_	_
 3	การ	_	NOUN	_	_	0	root	_	SpaceAfter=No
 4	สัก	_	VERB	_	_	3	acl	_	SpaceAfter=No
@@ -5566,7 +5566,7 @@
 # filename = tnc_ESUN208
 # sent_id = 1752
 # text = นอกจากนี้ยังมีสถานที่สำหรับรับประทานอาหารกลางแจ้ง เหมาะสำหรับผู้ที่ชอบรับประทานอาหารริมทะเล และชมพระอาทิตย์ตกดินระหว่างรับประทานอาหาร
-1	นอก	_	SCONJ	_	_	5	mark	_	SpaceAfter=No
+1	นอก	_	SCONJ	_	ExtPos=SCONJ	5	mark	_	SpaceAfter=No
 2	จาก	_	SCONJ	_	_	1	fixed	_	SpaceAfter=No
 3	นี้	_	SCONJ	_	_	1	fixed	_	SpaceAfter=No
 4	ยัง	_	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -6121,7 +6121,7 @@
 18	โทศก	_	NOUN	_	_	17	flat	_	_
 19	จุลศักราช	_	NOUN	_	_	18	flat	_	_
 20	1192	_	NUM	_	_	19	nummod	_	_
-21	ตรง	_	ADP	_	_	23	case	_	SpaceAfter=No
+21	ตรง	_	ADP	_	ExtPos=ADP	23	case	_	SpaceAfter=No
 22	กับ	_	ADP	_	_	21	fixed	_	SpaceAfter=No
 23	วัน	_	NOUN	_	_	9	nmod	_	SpaceAfter=No
 24	ที่	_	PART	_	_	23	flat	_	_
@@ -6188,7 +6188,7 @@
 # filename = ESUN006-PART023
 # sent_id = 834
 # text = จนในที่สุดเหล่าทหารก็ตัดสินใจที่จะทำการรัฐประหาร และแต่งตั้งให้พลเอกสุรยุทธ์ จุลานนท์ ขึ้นมาดำรงตำแหน่งนายกรัฐมนตรี
-1	จน	_	CCONJ	_	_	6	cc	_	SpaceAfter=No
+1	จน	_	CCONJ	_	ExtPos=CCONJ	6	cc	_	SpaceAfter=No
 2	ในที่สุด	_	CCONJ	_	_	1	fixed	_	SpaceAfter=No
 3	เหล่า	_	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 4	ทหาร	_	NOUN	_	_	3	nmod	_	SpaceAfter=No
@@ -6235,7 +6235,7 @@
 20	เมื่อ	_	ADP	_	_	21	case	_	SpaceAfter=No
 21	วัน	_	NOUN	_	_	11	obl	_	SpaceAfter=No
 22	พุธ	_	PROPN	_	_	21	compound	_	_
-23	เนื่อง	_	SCONJ	_	_	29	mark	_	SpaceAfter=No
+23	เนื่อง	_	SCONJ	_	ExtPos=SCONJ	29	mark	_	SpaceAfter=No
 24	จาก	_	SCONJ	_	_	23	fixed	_	SpaceAfter=No
 25	นัก	_	NOUN	_	_	29	nsubj	_	SpaceAfter=No
 26	ลง	_	VERB	_	_	25	compound	_	SpaceAfter=No
@@ -6349,7 +6349,7 @@
 # filename = tnc_NWRP_FR011
 # sent_id = 2478
 # text = อย่างไรก็ตาม อารมณ์ความรู้สึกของนักลงทุนแปรเปลี่ยนเป็นตรงกันข้ามในช่วงไตรมาสที่ 2 ของปี 2551 เพราะ วิกฤติสินเชื่อในสหรัฐทวีความรุนแรงมากขึ้น ทำให้การใช้จ่ายของผู้บริโภคและการผลิตสินค้าอุตสาหกรรมดิ่งลงทั่วโลก
-1	อย่าง	_	CCONJ	_	_	11	cc	_	SpaceAfter=No
+1	อย่าง	_	CCONJ	_	ExtPos=CCONJ	11	cc	_	SpaceAfter=No
 2	ไร	_	CCONJ	_	_	1	fixed	_	SpaceAfter=No
 3	ก็	_	CCONJ	_	_	1	fixed	_	SpaceAfter=No
 4	ตาม	_	CCONJ	_	_	1	fixed	_	_
@@ -6451,7 +6451,7 @@
 21	จริง	_	ADJ	_	_	20	amod	_	SpaceAfter=No
 22	อยู่	_	AUX	_	_	20	aux	_	_
 23	เพราะ	_	SCONJ	_	_	40	mark	_	SpaceAfter=No
-24	ถึง	_	SCONJ	_	_	31	mark	_	SpaceAfter=No
+24	ถึง	_	SCONJ	_	ExtPos=SCONJ	31	mark	_	SpaceAfter=No
 25	แม้	_	SCONJ	_	_	24	fixed	_	SpaceAfter=No
 26	ว่า	_	SCONJ	_	_	24	fixed	_	SpaceAfter=No
 27	เวลา	_	NOUN	_	_	31	nsubj	_	SpaceAfter=No
@@ -6804,7 +6804,7 @@
 28	รู้	_	VERB	_	_	27	compound	_	SpaceAfter=No
 29	อารมณ์	_	NOUN	_	_	27	obj	_	SpaceAfter=No
 30	ซึ่ง	_	PRON	_	_	34	nsubj	_	SpaceAfter=No
-31	ความ	_	ADV	_	_	34	advmod	_	SpaceAfter=No
+31	ความ	_	ADV	_	ExtPos=ADV	34	advmod	_	SpaceAfter=No
 32	จริง	_	ADV	_	_	31	fixed	_	SpaceAfter=No
 33	แล้ว	_	ADV	_	_	31	fixed	_	SpaceAfter=No
 34	มี	_	VERB	_	_	21	acl	_	SpaceAfter=No
@@ -6835,7 +6835,7 @@
 59	นั้น	_	DET	_	_	58	det	_	SpaceAfter=No
 60	ได้	_	AUX	_	_	55	aux	_	SpaceAfter=No
 61	ดี	_	ADV	_	_	55	advmod	_	_
-62	ดัง	_	CCONJ	_	_	67	cc	_	SpaceAfter=No
+62	ดัง	_	CCONJ	_	ExtPos=CCONJ	67	cc	_	SpaceAfter=No
 63	นั้น	_	CCONJ	_	_	62	fixed	_	SpaceAfter=No
 64	เรา	_	PRON	_	_	67	nsubj	_	SpaceAfter=No
 65	จึง	_	ADV	_	_	67	advmod	_	SpaceAfter=No
@@ -6872,7 +6872,7 @@
 96	ที่	_	NOUN	_	_	92	obl	_	SpaceAfter=No
 97	ต่าง	_	DET	_	_	96	det	_	SpaceAfter=No
 98	ๆ	_	PUNCT	_	_	97	punct	_	SpaceAfter=No
-99	แม้	_	ADV	_	_	101	advmod	_	SpaceAfter=No
+99	แม้	_	ADV	_	ExtPos=ADV	101	advmod	_	SpaceAfter=No
 100	กระทั่ง	_	ADV	_	_	99	fixed	_	SpaceAfter=No
 101	ภพ	_	NOUN	_	_	96	nmod	_	SpaceAfter=No
 102	ภูมิ	_	NOUN	_	_	101	compound	_	SpaceAfter=No
@@ -7195,7 +7195,7 @@
 16	ต่าง	_	DET	_	_	14	det	_	SpaceAfter=No
 17	ๆ	_	PUNCT	_	_	16	punct	_	_
 18	มากมาย	_	ADJ	_	_	13	amod	_	_
-19	ไม่	_	SCONJ	_	_	22	mark	_	SpaceAfter=No
+19	ไม่	_	SCONJ	_	ExtPos=SCONJ	22	mark	_	SpaceAfter=No
 20	ว่า	_	SCONJ	_	_	19	fixed	_	SpaceAfter=No
 21	จะ	_	SCONJ	_	_	19	fixed	_	SpaceAfter=No
 22	มาก	_	ADV	_	_	10	advcl	_	SpaceAfter=No
@@ -7209,14 +7209,14 @@
 30	เรา	_	PRON	_	_	27	obl	_	SpaceAfter=No
 31	ทั้งสิ้น	_	ADV	_	_	27	advmod	_	_
 32	ดังนั้น	_	SCONJ	_	_	44	mark	_	SpaceAfter=No
-33	ไม่	_	SCONJ	_	_	37	mark	_	SpaceAfter=No
+33	ไม่	_	SCONJ	_	ExtPos=SCONJ	37	mark	_	SpaceAfter=No
 34	ว่า	_	SCONJ	_	_	33	fixed	_	SpaceAfter=No
 35	เรา	_	PRON	_	_	37	nsubj	_	SpaceAfter=No
 36	จะ	_	ADV	_	_	37	advmod	_	SpaceAfter=No
 37	ทำ	_	VERB	_	_	44	advcl	_	SpaceAfter=No
 38	สิ่ง	_	NOUN	_	_	37	obj	_	SpaceAfter=No
 39	ใด	_	PART	_	_	38	amod	_	SpaceAfter=No
-40	ก็	_	ADV	_	_	37	advmod	_	SpaceAfter=No
+40	ก็	_	ADV	_	ExtPos=ADV	37	advmod	_	SpaceAfter=No
 41	ตาม	_	ADV	_	_	40	fixed	_	_
 42	เรา	_	PRON	_	_	44	nsubj	_	SpaceAfter=No
 43	ต้อง	_	AUX	_	_	44	aux	_	SpaceAfter=No
@@ -7728,7 +7728,7 @@
 6	ทาง	_	NOUN	_	_	5	obj	_	SpaceAfter=No
 7	ผิด	_	VERB	_	_	3	advcl	_	SpaceAfter=No
 8	สาย	_	NOUN	_	_	7	obj	_	SpaceAfter=No
-9	ครั้ง	_	NOUN	_	_	2	obl	_	SpaceAfter=No
+9	ครั้ง	_	NOUN	_	_	2	nmod	_	SpaceAfter=No
 10	นี้	_	DET	_	_	9	det	_	SpaceAfter=No
 11	เป็น	_	AUX	_	_	12	cop	_	SpaceAfter=No
 12	ประสบการณ์	_	NOUN	_	_	0	root	_	SpaceAfter=No
@@ -7895,12 +7895,12 @@
 10	การ	_	NOUN	_	_	3	obl	_	SpaceAfter=No
 11	โจม	_	VERB	_	_	10	acl	_	SpaceAfter=No
 12	ตี	_	VERB	_	_	11	compound	_	SpaceAfter=No
-13	ต่อ	_	ADV	_	_	11	advmod	_	SpaceAfter=No
+13	ต่อ	_	ADV	_	ExtPos=ADV	11	advmod	_	SpaceAfter=No
 14	เนื่อง	_	ADV	_	_	13	fixed	_	SpaceAfter=No
 15	นาน	_	VERB	_	_	11	advcl	_	_
 16	3	_	NUM	_	_	17	nummod	_	_
 17	สัปดาห์	_	NOUN	_	_	15	obl	_	_
-18	หลัง	_	SCONJ	_	_	23	mark	_	SpaceAfter=No
+18	หลัง	_	SCONJ	_	ExtPos=SCONJ	23	mark	_	SpaceAfter=No
 19	จาก	_	SCONJ	_	_	18	fixed	_	SpaceAfter=No
 20	ที่	_	SCONJ	_	_	18	fixed	_	SpaceAfter=No
 21	กลุ่ม	_	NOUN	_	_	23	nsubj	_	SpaceAfter=No
@@ -7921,7 +7921,7 @@
 36	ได้	_	AUX	_	_	38	aux	_	SpaceAfter=No
 37	ไม่	_	ADV	_	_	38	advmod	_	SpaceAfter=No
 38	นาน	_	VERB	_	_	23	advcl	_	_
-39	โดย	_	SCONJ	_	_	42	mark	_	SpaceAfter=No
+39	โดย	_	SCONJ	_	ExtPos=SCONJ	42	mark	_	SpaceAfter=No
 40	ที่	_	SCONJ	_	_	39	fixed	_	SpaceAfter=No
 41	เป็น	_	AUX	_	_	42	cop	_	SpaceAfter=No
 42	การ	_	NOUN	_	_	23	advcl	_	SpaceAfter=No
@@ -7933,7 +7933,7 @@
 48	เดียว	_	ADJ	_	_	47	amod	_	SpaceAfter=No
 49	เช่น	_	ADV	_	_	42	advmod	_	SpaceAfter=No
 50	กัน	_	PRON	_	_	49	compound	_	_
-51	ขณะ	_	SCONJ	_	_	56	mark	_	SpaceAfter=No
+51	ขณะ	_	SCONJ	_	ExtPos=SCONJ	56	mark	_	SpaceAfter=No
 52	ที่	_	SCONJ	_	_	51	fixed	_	SpaceAfter=No
 53	กอง	_	NOUN	_	_	56	nsubj	_	SpaceAfter=No
 54	ทัพ	_	NOUN	_	_	53	compound	_	SpaceAfter=No
@@ -8476,7 +8476,7 @@
 2	ฉัน	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
 3	ได้	_	AUX	_	_	4	aux	_	SpaceAfter=No
 4	พิจารณา	_	VERB	_	_	36	advcl	_	SpaceAfter=No
-5	ตั้ง	_	ADP	_	_	7	case	_	SpaceAfter=No
+5	ตั้ง	_	ADP	_	ExtPos=ADP	7	case	_	SpaceAfter=No
 6	แต่	_	ADP	_	_	5	fixed	_	SpaceAfter=No
 7	แรก	_	NOUN	_	_	4	obl	_	SpaceAfter=No
 8	ว่า	_	SCONJ	_	_	17	mark	_	SpaceAfter=No
@@ -8927,7 +8927,7 @@
 21	ขอ	_	VERB	_	_	20	ccomp	_	SpaceAfter=No
 22	โทษ	_	NOUN	_	_	21	compound	_	SpaceAfter=No
 23	เขา	_	PRON	_	_	21	obj	_	_
-24	หลัง	_	SCONJ	_	_	29	mark	_	SpaceAfter=No
+24	หลัง	_	SCONJ	_	ExtPos=SCONJ	29	mark	_	SpaceAfter=No
 25	จาก	_	SCONJ	_	_	24	fixed	_	SpaceAfter=No
 26	นั้น	_	SCONJ	_	_	24	fixed	_	SpaceAfter=No
 27	ฉัน	_	PRON	_	_	29	nsubj	_	SpaceAfter=No

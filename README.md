@@ -76,7 +76,7 @@ Data available since: UD v2.17
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: grammar-examples
+Genre: wiki news fiction nonfiction academic legal
 Lemmas: not available
 UPOS: manual native
 XPOS: not available
@@ -87,3 +87,4 @@ Contributing: here
 Contact: attapol.t@chula.ac.th, punyanuch.maitree@gmail.com
 ===============================================================================
 </pre>
+C:\Users\Punyanuch\OneDrive\Pictures\Documents\GitHub\UD_Thai-TUD\th_tud-ud-dev.conllu

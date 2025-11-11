@@ -1,0 +1,79 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Thai-TUD:
+commit 94dadd92b41cb31da657d0e21538cc867a1e0c5a
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 15:38:49 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'th_tud'
+Language code (from CoNLL-U file name) = 'th'
+Found the following data files: th_tud-ud-dev.conllu, th_tud-ud-test.conllu, th_tud-ud-train.conllu
+Size: counted 77215 of 77215 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.69318747734993.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: '_' is the most frequent lemma.
+Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 401 out of 77215 total words have one or more features.
+Features: source of annotation (from README) factor is 0.4.
+Universal relations: 35 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 6 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang th --max-err=10 UD_Thai-TUD/th_tud-ud-dev.conllu
+[Line 10 Sent 2410]: [L3 Warning pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 12 Sent 2410]: [L3 Warning pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 23 Sent 331]: [L3 Warning pron-det-without-prontype] The word 'ฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 30 Sent 331]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 37 Sent 331]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 44 Sent 331]: [L3 Warning pron-det-without-prontype] The word 'อื่น' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 55 Sent 2213]: [L3 Warning pron-det-without-prontype] The word 'กระผม' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 61 Sent 2213]: [L3 Warning pron-det-without-prontype] The word 'กระผม' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 72 Sent 2213]: [L3 Warning pron-det-without-prontype] The word 'นั้น' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 73 Sent 2213]: [L3 Warning pron-det-without-prontype] The word 'ผม' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 446
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang th --max-err=10 UD_Thai-TUD/th_tud-ud-test.conllu
+[Line 8 Sent 1857]: [L3 Warning pron-det-without-prontype] The word 'มัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 12 Sent 1857]: [L3 Warning pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 14 Sent 1857]: [L3 Warning pron-det-without-prontype] The word 'กัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 23 Sent 1780]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 30 Sent 1780]: [L3 Warning pron-det-without-prontype] The word 'มัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 43 Sent 1780]: [L3 Warning pron-det-without-prontype] The word 'คุณ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 46 Sent 1780]: [L3 Warning pron-det-without-prontype] The word 'มัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 52 Sent 538]: [L3 Warning pron-det-without-prontype] The word 'ฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 71 Sent 538]: [L3 Warning pron-det-without-prontype] The word 'ฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 94 Sent 3209]: [L3 Warning pron-det-without-prontype] The word 'ดิฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 491
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang th --max-err=10 UD_Thai-TUD/th_tud-ud-train.conllu
+[Line 7 Sent 991]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 15 Sent 991]: [L3 Warning pron-det-without-prontype] The word 'นั้น' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 23 Sent 991]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 59 Sent 2449]: [L3 Warning pron-det-without-prontype] The word 'กัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent 782]: [L3 Warning pron-det-without-prontype] The word 'ซึ่ง' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 87 Sent 782]: [L3 Warning pron-det-without-prontype] The word 'ต่าง' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 97 Sent 1199]: [L3 Warning pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 101 Sent 1199]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 113 Sent 1475]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 119 Sent 1475]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 3891
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
+(weight=0.111111111111111) * (score{genres}=0.333333333333333) = 0.037037037037037
+(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
+(weight=0.37037037037037) * (score{size}=0.629233891927254) = 0.233049589602687
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
+(weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
+(TOTAL score=0.512860577060733) * (availability=1) * (validity=1) = 0.512860577060733
+STARS = 2.5
+UD_Thai-TUD	0.512860577060733	2.5

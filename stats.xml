@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>3627</sentences><tokens>77215</tokens><words>77215</words><fused>0</fused></total>
+    <train><sentences>2902</sentences><tokens>62011</tokens><words>62011</words><fused>0</fused></train>
+    <dev><sentences>362</sentences><tokens>7521</tokens><words>7521</words><fused>0</fused></dev>
+    <test><sentences>363</sentences><tokens>7683</tokens><words>7683</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="6344" /><!-- ที่, การ, ใน, เป็น, มี, และ, ของ, จะ, ได้, ความ, ไม่, ให้, ว่า, คน, ไป -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">1900</tag><!-- _ -->
+    <tag name="ADP">5601</tag><!-- _ -->
+    <tag name="ADV">6941</tag><!-- _ -->
+    <tag name="AUX">4250</tag><!-- _ -->
+    <tag name="CCONJ">2566</tag><!-- _ -->
+    <tag name="DET">1419</tag><!-- _ -->
+    <tag name="NOUN">23259</tag><!-- _ -->
+    <tag name="NUM">1410</tag><!-- _ -->
+    <tag name="PART">732</tag><!-- _ -->
+    <tag name="PRON">3376</tag><!-- _ -->
+    <tag name="PROPN">3080</tag><!-- _ -->
+    <tag name="PUNCT">1092</tag><!-- _ -->
+    <tag name="SCONJ">3168</tag><!-- _ -->
+    <tag name="SYM">25</tag><!-- _ -->
+    <tag name="VERB">18396</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="8">
+    <feat name="ExtPos" value="ADJ" upos="ADJ">15</feat><!-- ต่อ, ทั่ว, เดียว, ขยัน, ถัด, ที่, เขียว, แวด -->
+    <feat name="ExtPos" value="ADP" upos="ADP,PART">47</feat><!-- จน, ตั้ง, ท่าม, โดย, อาทิ, พร้อม, ภาย, หลัง, เช่น, ให้ -->
+    <feat name="ExtPos" value="ADV" upos="ADV,PART">88</feat><!-- ต่อ, ก็, แต่, ใน, ตลอด, ทรง, ทัน, มาก, เพียง, ค่อน -->
+    <feat name="ExtPos" value="AUX" upos="AUX">18</feat><!-- ยัง, ควร, จะ, อาจ, คง, ที่, อยู่, เพิ่ง -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ">94</feat><!-- อย่างไร, ขณะ, รวม, นอก, แต่, ดัง, ทั้ง, ใน, พร้อม, อย่าง -->
+    <feat name="ExtPos" value="DET" upos="DET">3</feat><!-- ดัง, นั่น, เหล่า -->
+    <feat name="ExtPos" value="PRON" upos="PRON">2</feat><!-- ที่, ฝ่า -->
+    <feat name="ExtPos" value="SCONJ" upos="PART,SCONJ,VERB">134</feat><!-- เนื่อง, ไม่, หลัง, ถึง, เป็น, ตัวอย่าง, แม้, ขณะ, นอก, ภาย -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="35">
+    <dep name="acl">5589</dep>
+    <dep name="advcl">2225</dep>
+    <dep name="advmod">6654</dep>
+    <dep name="amod">1806</dep>
+    <dep name="appos">77</dep>
+    <dep name="aux">3176</dep>
+    <dep name="case">5513</dep>
+    <dep name="cc">2383</dep>
+    <dep name="ccomp">1645</dep>
+    <dep name="clf">691</dep>
+    <dep name="compound">6630</dep>
+    <dep name="conj">2435</dep>
+    <dep name="cop">1008</dep>
+    <dep name="csubj">78</dep>
+    <dep name="dep">82</dep>
+    <dep name="det">1396</dep>
+    <dep name="discourse">86</dep>
+    <dep name="dislocated">90</dep>
+    <dep name="expl">21</dep>
+    <dep name="fixed">539</dep>
+    <dep name="flat">970</dep>
+    <dep name="iobj">63</dep>
+    <dep name="list">399</dep>
+    <dep name="mark">3468</dep>
+    <dep name="nmod">7854</dep>
+    <dep name="nsubj">5553</dep>
+    <dep name="nummod">1205</dep>
+    <dep name="obj">6763</dep>
+    <dep name="obl">3541</dep>
+    <dep name="orphan">79</dep>
+    <dep name="parataxis">31</dep>
+    <dep name="punct">1092</dep>
+    <dep name="root">3627</dep>
+    <dep name="vocative">3</dep>
+    <dep name="xcomp">443</dep>
+  </deps>
+</treebank>

@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Thai-TUD:
-commit 94dadd92b41cb31da657d0e21538cc867a1e0c5a
+commit 58c2058bcd542a759c03bcac4cf6e48aff27cf50
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 15:38:49 2025 +0100
+Date:   Tue Nov 11 20:56:19 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'th_tud'
 Language code (from CoNLL-U file name) = 'th'
@@ -25,45 +25,61 @@ Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 6 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang th --max-err=10 UD_Thai-TUD/th_tud-ud-dev.conllu
-[Line 10 Sent 2410]: [L3 Warning pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 12 Sent 2410]: [L3 Warning pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 23 Sent 331]: [L3 Warning pron-det-without-prontype] The word 'ฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 30 Sent 331]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 37 Sent 331]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 44 Sent 331]: [L3 Warning pron-det-without-prontype] The word 'อื่น' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 55 Sent 2213]: [L3 Warning pron-det-without-prontype] The word 'กระผม' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 61 Sent 2213]: [L3 Warning pron-det-without-prontype] The word 'กระผม' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 72 Sent 2213]: [L3 Warning pron-det-without-prontype] The word 'นั้น' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 73 Sent 2213]: [L3 Warning pron-det-without-prontype] The word 'ผม' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 10 Sent 2410]: [L3 WARNING pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 12 Sent 2410]: [L3 WARNING pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 23 Sent 331]: [L3 WARNING pron-det-without-prontype] The word 'ฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 30 Sent 331]: [L3 WARNING pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 37 Sent 331]: [L3 WARNING pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 44 Sent 331]: [L3 WARNING pron-det-without-prontype] The word 'อื่น' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 55 Sent 2213]: [L3 WARNING pron-det-without-prontype] The word 'กระผม' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 61 Sent 2213]: [L3 WARNING pron-det-without-prontype] The word 'กระผม' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 72 Sent 2213]: [L3 WARNING pron-det-without-prontype] The word 'นั้น' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 73 Sent 2213]: [L3 WARNING pron-det-without-prontype] The word 'ผม' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2065 Sent 2094]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 2800 Sent 2788]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obj'.
+[Line 4349 Sent 912]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 9] 'นอกจาก * * * * * * * แล้ว'
 Warnings: 446
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang th --max-err=10 UD_Thai-TUD/th_tud-ud-test.conllu
-[Line 8 Sent 1857]: [L3 Warning pron-det-without-prontype] The word 'มัน' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 12 Sent 1857]: [L3 Warning pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 14 Sent 1857]: [L3 Warning pron-det-without-prontype] The word 'กัน' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 23 Sent 1780]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 30 Sent 1780]: [L3 Warning pron-det-without-prontype] The word 'มัน' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 43 Sent 1780]: [L3 Warning pron-det-without-prontype] The word 'คุณ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 46 Sent 1780]: [L3 Warning pron-det-without-prontype] The word 'มัน' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 52 Sent 538]: [L3 Warning pron-det-without-prontype] The word 'ฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 71 Sent 538]: [L3 Warning pron-det-without-prontype] The word 'ฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 94 Sent 3209]: [L3 Warning pron-det-without-prontype] The word 'ดิฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 8 Sent 1857]: [L3 WARNING pron-det-without-prontype] The word 'มัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 12 Sent 1857]: [L3 WARNING pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 14 Sent 1857]: [L3 WARNING pron-det-without-prontype] The word 'กัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 23 Sent 1780]: [L3 WARNING pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 30 Sent 1780]: [L3 WARNING pron-det-without-prontype] The word 'มัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 43 Sent 1780]: [L3 WARNING pron-det-without-prontype] The word 'คุณ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 46 Sent 1780]: [L3 WARNING pron-det-without-prontype] The word 'มัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 52 Sent 538]: [L3 WARNING pron-det-without-prontype] The word 'ฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 71 Sent 538]: [L3 WARNING pron-det-without-prontype] The word 'ฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 94 Sent 3209]: [L3 WARNING pron-det-without-prontype] The word 'ดิฉัน' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2439 Sent 1795]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 6804 Sent 2746]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
 Warnings: 491
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang th --max-err=10 UD_Thai-TUD/th_tud-ud-train.conllu
-[Line 7 Sent 991]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 15 Sent 991]: [L3 Warning pron-det-without-prontype] The word 'นั้น' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 23 Sent 991]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 59 Sent 2449]: [L3 Warning pron-det-without-prontype] The word 'กัน' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 74 Sent 782]: [L3 Warning pron-det-without-prontype] The word 'ซึ่ง' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 87 Sent 782]: [L3 Warning pron-det-without-prontype] The word 'ต่าง' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 97 Sent 1199]: [L3 Warning pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 101 Sent 1199]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 113 Sent 1475]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 119 Sent 1475]: [L3 Warning pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 7 Sent 991]: [L3 WARNING pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 15 Sent 991]: [L3 WARNING pron-det-without-prontype] The word 'นั้น' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 23 Sent 991]: [L3 WARNING pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 59 Sent 2449]: [L3 WARNING pron-det-without-prontype] The word 'กัน' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent 782]: [L3 WARNING pron-det-without-prontype] The word 'ซึ่ง' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 87 Sent 782]: [L3 WARNING pron-det-without-prontype] The word 'ต่าง' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 97 Sent 1199]: [L3 WARNING pron-det-without-prontype] The word 'เรา' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 101 Sent 1199]: [L3 WARNING pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 113 Sent 1475]: [L3 WARNING pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 119 Sent 1475]: [L3 WARNING pron-det-without-prontype] The word 'ที่' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 830 Sent 1823]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'compound'.
+[Line 843 Sent 1823]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'compound'.
+[Line 2810 Sent 1772]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'compound'.
+[Line 6660 Sent 3066]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 9324 Sent 56]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
+[Line 19394 Sent 1751]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 20406 Sent 2131]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 23615 Sent 2625]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'dislocated'.
+[Line 28837 Sent 2844]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 29149 Sent 2521]: [L3 WARNING orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obj'.
+...suppressing further messages regarding WARNING/SYNTAX
 Warnings: 3891
 *** PASSED ***
 Validity: 1
